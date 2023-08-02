@@ -1,0 +1,23 @@
+@import './variaveis';
+@import-normalize;
+
+body {
+    background-color: $primeira_cor;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 1.5rem;
+    background-color: $terceira_cor;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: $segunda_cor;
+}

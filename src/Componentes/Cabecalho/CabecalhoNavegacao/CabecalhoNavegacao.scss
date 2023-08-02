@@ -1,0 +1,19 @@
+@import '../../../Styles/variaveis';
+
+.cabecalho__menu{
+    display: flex;
+    gap: 5rem;
+    margin: 2% 0% 0% 15%;;
+}
+
+.cabecalho__menu__link{
+    font-family: $font_secundaria;
+    font-size: 1.5rem;
+    color: $terceira_cor;
+    transition: 1s all;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover{
+    color: $quarta_cor;
+}
