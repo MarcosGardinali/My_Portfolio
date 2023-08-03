@@ -1,0 +1,85 @@
+@import '../../Styles/variaveis';
+
+.conteudo{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.5rem;
+}
+
+.apresentacao{
+    width: 38rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+
+    &__titulo{
+        font-size: 1.6rem;
+        font-family: $font_primaria;
+        color: $quarta_cor;;
+    }
+    
+    &__titulo__destaque{
+        color: $terceira_cor;
+    }
+    
+    &__conteudo__texto{
+        font-size: 1.3rem;
+        font-family: $font_secundaria;
+        color: $quarta_cor;
+    }
+    
+    &__links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.25rem;
+        justify-content: space-between;
+        
+    }
+    
+    &__links__subtitulo{
+        font-family: $font_primaria;
+        font-size: 1.2rem;
+        color: $quarta_cor;;
+    }
+    
+    &__botao{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.2rem;
+        color: $terceira_cor;
+        width: 23rem;
+        text-align: center;
+        border: 0.1rem solid $segunda_cor;
+        border-radius: 1.1rem;
+        padding: 1.2rem 0;
+        font-family: $font_secundaria;
+        transition: 0.8s all;
+    }
+    
+    &__botao:hover{
+        background-color: $segunda_cor;
+        border-radius: 1.5rem;
+        border-color: $primeira_cor;
+    }
+}
+
+.meusProjetos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+
+    &__h1{
+        font-family: $font_primaria;
+        font-size: 1.5rem;
+        color: $quarta_cor;
+    }
+}
+
