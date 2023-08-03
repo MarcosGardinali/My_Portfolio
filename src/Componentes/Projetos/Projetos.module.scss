@@ -1,0 +1,10 @@
+@import '../../Styles/variaveis';
+
+.projetos {
+    display: flex;
+    gap: 1.5rem;
+    border: 0.1rem solid $segunda_cor;
+    border-radius: 1.1rem;
+    margin: 0 5%;
+    padding: 16px;
+}

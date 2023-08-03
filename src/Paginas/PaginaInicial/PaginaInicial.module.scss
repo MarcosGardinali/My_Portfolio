@@ -69,3 +69,17 @@
     }
 }
 
+.meusProjetos{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+
+    &__h1{
+        font-family: $font_primaria;
+        font-size: 1.5rem;
+        color: $quarta_cor;
+    }
+}
+

@@ -3,9 +3,9 @@ import styles from './PaginaInicial.module.scss'
 import Cabecalho from '../../Componentes/Cabecalho'
 import Rodape from '../../Componentes/Rodape'
 import Foto from '../../Componentes/Foto'
-import github from '../../Assets/github.png'
-import instagram from '../../Assets/instagram.png'
-import linkedin from '../../Assets/linkedin.png'
+import github from '../../assets/github.png'
+import instagram from '../../assets/instagram.png'
+import linkedin from '../../assets/linkedin.png'
 import Projetos from '../../Componentes/Projetos'
 
 
@@ -36,8 +36,8 @@ export default function PaginaInicial() {
         <Foto />
       </main>
       <hr></hr>
-      <section className='projetos'>
-        <h1>Meus projetos</h1>
+      <section className={styles.meusProjetos}>
+        <h1 className={styles.meusProjetos__h1}>Meus projetos</h1>
         <Projetos />
       </section>
       <Rodape />

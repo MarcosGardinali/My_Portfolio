@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Projetos.module.scss'
+import Cards from '../Cards'
+import projetos from './projetos.json'
 
 export default function Projetos() {
+
+  const [listaProjetos, setListaProjetos] = useState(projetos)
+
   return (
-    <section>
-        <div>
-          <h2>React Expenses</h2>
-          <img src='' alt='Imagem do projeto' />
-          <p>Projeto para controle de entrada e saída de gastos feito em react</p>
-        </div>
+    <section className={styles.projetos}>
+        <Cards 
+          projetos={listaProjetos}
+        />
     </section>
   )
 }
