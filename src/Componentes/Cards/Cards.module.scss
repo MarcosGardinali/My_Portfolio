@@ -2,6 +2,7 @@
 
 
 .lista{
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
@@ -14,32 +15,43 @@
     flex-direction: column;
     border: 0.1rem solid $segunda_cor;
     border-radius: 1.1rem;  
-    padding: 24px;
+    padding: 16px;
     gap: 0.5rem;
 
     &__imagem{
-        height: 75%;
-        width: 250%;
+        height: 35vh;
+        width: 25vw;
         margin-bottom: 1rem;
         border-radius: 1rem;
     }
 
     &__titulo{
-        color: white;
+        color: $terceira_cor;
+        font-size: 18px;
         font-family: $font_secundaria;
+        margin: 0.5rem;
     }
 
     &__creditos{
         font-family: $font_secundaria;
-        color: white;
-        margin-bottom: 1rem;
+        color: $quarta_cor;
+        margin-bottom: 2rem;
     }
 
     &__url{
         font-family: $font_secundaria;
-        color: aqua;
-        border: 0.1rem solid black;
+        color: $quarta_cor;
+        border: 0.1rem solid $segunda_cor;
         border-radius: 1rem;
-        padding: 0.2rem;
+        padding: 0.5rem;
+        transition: 1s all;
+    }
+
+    &__url:hover{
+        font-family: $font_secundaria;
+        color: $terceira_cor;
+        border: 0.1rem solid $quarta_cor;
+        border-radius: 1.5rem;
+        padding: 0.5rem;
     }
 }

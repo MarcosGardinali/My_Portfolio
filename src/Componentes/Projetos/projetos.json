@@ -2,14 +2,14 @@
     {
       "titulo": "To-Do List",
       "creditos": "Marcos Gardinali",
-      "imagem": "../../assets/afazeres.png",
+      "imagem": "/assets/afazeres.png",
       "id": "1",
       "url": "https://react-to-do-list-tau-one.vercel.app/"
     },
     {
         "titulo": "React Expenses",
         "creditos": "Marcos Gardinali",
-        "imagem": "../../assets/expenses.png",
+        "imagem": "/assets/expenses.png",
         "id": "2",
         "url": "https://expensesjs.vercel.app/"
       }
