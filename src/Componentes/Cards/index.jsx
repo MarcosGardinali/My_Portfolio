@@ -11,7 +11,7 @@ export default function Cards({projetos}) {
                     <p className={styles.cards__titulo}>{projeto.titulo}</p>
                     <div>
                         <p className={styles.cards__creditos}>{projeto.creditos}</p>
-                        <a href={projeto.url} className={styles.cards__url}>Acesse aqui</a>
+                        <a href={projeto.url} target="_blank" className={styles.cards__url}>Acesse aqui</a>
                     </div>
                 </li>
             )
