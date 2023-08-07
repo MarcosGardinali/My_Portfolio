@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from './PaginaInicial.module.scss'
-import Cabecalho from '../../Componentes/Cabecalho'
-import Rodape from '../../Componentes/Rodape'
 import Foto from '../../Componentes/Foto'
 import github from '../../assets/github.png'
 import instagram from '../../assets/instagram.png'
@@ -12,7 +10,6 @@ import Projetos from '../../Componentes/Projetos'
 export default function PaginaInicial() {
   return (
     <>
-      <Cabecalho />
       <main className={styles.conteudo}>
         <section className={styles.apresentacao}>
           <h1 className={styles.apresentacao__titulo}>Marcos Gardinali - <strong className={styles.apresentacao__titulo__destaque}>Desenvolvedor Front-end</strong></h1>
@@ -40,7 +37,6 @@ export default function PaginaInicial() {
         <h1 className={styles.meusProjetos__h1}>Meus projetos</h1>
         <Projetos />
       </section>
-      <Rodape />
     </>
   )
 }

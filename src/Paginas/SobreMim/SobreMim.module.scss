@@ -1,0 +1,29 @@
+@import 'Styles/variaveis';
+
+.apresentacao{
+    padding: 4% 15% 2% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.5rem;
+
+    &__titulo{
+        font-size: 1.6rem;
+        font-family: $font_primaria;
+        color: $quarta_cor;
+    }
+
+    &__conteudo{
+        width: 38rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    &__conteudo__texto{
+        font-size: 1.3rem;
+        font-family: $font_secundaria;
+        color: $quarta_cor;
+    }
+}
+

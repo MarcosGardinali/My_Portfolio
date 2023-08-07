@@ -4,13 +4,13 @@
 .lista{
     box-sizing: border-box;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 1.9rem;
 }
 
 .cards{
     display: flex;
-    justify-content: space-between;
     box-sizing: border-box;
     flex-direction: column;
     border: 0.1rem solid $segunda_cor;

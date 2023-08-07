@@ -1,5 +1,7 @@
 @import '../../Styles/_variaveis.scss';
 
-.cabecalho{
-    background-color: $segunda_cor;
+.menu{
+    display: flex;
+    gap: 5rem;
+    margin: 1% 0% 0% 15%;
 }

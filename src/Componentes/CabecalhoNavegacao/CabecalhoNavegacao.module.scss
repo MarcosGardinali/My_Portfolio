@@ -1,20 +1,18 @@
 @import '../../Styles/variaveis';
 
-.menu{
-    display: flex;
-    gap: 5rem;
-    margin: 2% 0% 0% 15%;
 
-    &__link{
-        font-family: $font_secundaria;
-        font-size: 1.5rem;
-        color: $terceira_cor;
-        transition: 1s all;
-        text-decoration: none;
-    }
-    
-    &__link:hover{
-        color: $quarta_cor;
-    }
+.link {
+    font-family: $font_secundaria;
+    font-size: 1.5rem;
+    color: $terceira_cor;
+    transition: 1s all;
+    text-decoration: none;
 }
 
+.linkDestacado {
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: $quarta_cor;
+}

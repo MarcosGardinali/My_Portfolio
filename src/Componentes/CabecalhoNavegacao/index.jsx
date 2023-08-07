@@ -1,11 +1,16 @@
 import React from 'react'
 import styles from './CabecalhoNavegacao.module.scss'
+import { Link, useLocation } from 'react-router-dom'
 
-export default function CabecalhoNavegacao() {
+export default function CabecalhoNavegacao({ children, to }) {
+    const localizacao = useLocation();
+
     return (
-        <nav className={styles.menu}>
-            <a href="/" className={styles.menu__link}>Home</a>
-            <a href="/" className={styles.menu__link}>Sobre Mim</a>
-        </nav>
+        <Link className={`
+            ${styles.link}
+            ${localizacao.pathname === to ? styles.linkDestacado : ""}`} 
+            to={to}>
+            {children}
+        </Link>
     )
 }
