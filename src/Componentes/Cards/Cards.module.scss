@@ -1,0 +1,57 @@
+@import '../../Styles/variaveis';
+
+
+.lista{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.9rem;
+}
+
+.cards{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    border: 0.1rem solid $segunda_cor;
+    border-radius: 1.1rem;  
+    padding: 16px;
+    gap: 0.5rem;
+
+    &__imagem{
+        height: 55vh;
+        width: 40vw;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+    }
+
+    &__titulo{
+        color: $terceira_cor;
+        font-size: 24px;
+        font-family: $font_secundaria;
+        margin: 0.5rem;
+    }
+
+    &__creditos{
+        font-family: $font_secundaria;
+        color: $quarta_cor;
+        margin-bottom: 2rem;
+    }
+
+    &__url{
+        font-family: $font_secundaria;
+        color: $quarta_cor;
+        border: 0.1rem solid $segunda_cor;
+        border-radius: 1rem;
+        padding: 0.5rem;
+        transition: 1s all;
+    }
+
+    &__url:hover{
+        font-family: $font_secundaria;
+        color: $terceira_cor;
+        border: 0.1rem solid $quarta_cor;
+        border-radius: 1.5rem;
+        padding: 0.5rem;
+    }
+}
