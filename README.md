@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Portfólio Pessoal em React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao meu portfólio pessoal em React! Este projeto foi desenvolvido para apresentar minha jornada no mundo do desenvolvimento e exibir os projetos nos quais tenho trabalhado. Aqui você encontrará informações sobre mim, links para minhas redes sociais e detalhes sobre os projetos mais recentes que realizei.
 
-## Available Scripts
+## Tabela de Conteúdo
 
-In the project directory, you can run:
+- [Sobre Mim](#sobre-mim)
+- [Projetos](#projetos)
+- [Como Rodar o Projeto](#como-rodar-o-projeto)
+- [Contato](#contato)
 
-### `npm start`
+## Sobre Mim
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Olá! Sou Marcos Gardinali, um entusiasta apaixonado por desenvolvimento de software e video games. Minha jornada começou com um grande interesse em programação e design, e desde então tenho trabalhado em diversos projetos para aprimorar minhas habilidades. Adoro explorar novas tecnologias e encontrar soluções criativas para desafios complexos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Projetos
 
-### `npm test`
+Aqui estão alguns dos projetos nos quais tenho trabalhado recentemente:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **To-Do List**
+   Um projeto de lista de afazeres, onde os afazeres cadastrados são salvos na localStorage do navegador, assim como seu estado de check.
 
-### `npm run build`
+     <img src="./public/assets/afazeres.png"/>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **React Expenses**
+    Um projeto de controle de despesas, podendo cadastrar entradas e saídas, com os dados sendo salvos na localStorage e na tela são exibidas as informações totais de saidas e entradas e um saldo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+      <img src="./public/assets/expenses.png"/>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+E assim por diante. Cada projeto possui seu próprio repositório no GitHub, onde você pode conferir o código fonte e detalhes adicionais.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Como Rodar o Projeto
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Se você deseja executar o projeto em sua máquina local, siga estas etapas:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Certifique-se de ter o Node.js instalado: [Baixar Node.js](https://nodejs.org/)
+2. Clone este repositório: `git clone https://github.com/MarcosGardinali/My_Portfolio.git`
+3. Acesse o diretório do projeto: `cd My_Portfolio`
+4. Instale as dependências: `npm install`
+5. Inicie o servidor de desenvolvimento: `npm start`
+6. Abra o navegador e acesse: `http://localhost:3000`
 
-## Learn More
+## Contato
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Fique à vontade para entrar em contato comigo através das seguintes redes sociais:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [LinkedIn](https://www.linkedin.com/in/marcos-gardinali)
+- [GitHub](https://github.com/MarcosGardinali)
 
-### Code Splitting
+Se você quiser saber mais sobre mim ou discutir oportunidades de colaboração, não hesite em me enviar uma mensagem através das redes sociais.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Obrigado por visitar meu portfólio e espero que você goste dos projetos que apresentei aqui!
